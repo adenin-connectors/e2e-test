@@ -1,0 +1,3 @@
+ServiceName: 'news-feed'
+InterfaceName: 'items'
+Description: 'news-feed'
