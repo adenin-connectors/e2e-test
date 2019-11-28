@@ -7,7 +7,7 @@ module.exports = async (activity) => {
     api.initialize(activity);
 
     activity.Response.Data = {
-      success: false
+      success: true
     };
   } catch (error) {
     $.handleError(activity, error);

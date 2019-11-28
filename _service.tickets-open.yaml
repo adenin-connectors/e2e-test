@@ -1,4 +1,4 @@
-ServiceName: 'news-feed'
+ServiceName: 'tickets-open'
 InterfaceName: 'status'
-Description: 'News Feed'
+Description: 'Open Tickets'
 Interfaces: 'items,daterange,pagination'
