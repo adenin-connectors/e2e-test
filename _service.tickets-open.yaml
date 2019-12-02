@@ -1,4 +1,4 @@
-ServiceName: 'tickets-open'
+ServiceName: 'tickets-open-by-priority'
 InterfaceName: 'status'
-Description: 'Open Tickets'
+Description: 'Open Tickets by Priority'
 Interfaces: 'items,daterange,pagination'
