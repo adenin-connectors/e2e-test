@@ -8,6 +8,7 @@ module.exports = async (activity) => {
       title: T(activity, 'Open Tickets By Priority'),
       link: generator.detailUrl(),
       linkLabel: T(activity, 'Open Dashboard'),
+      thumbnail: 'https://www.adenin.com/assets/images/wp-images/logo/freshdesk.svg',
       chart: {
         configuration: {
           data: {
