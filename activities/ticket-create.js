@@ -53,6 +53,8 @@ module.exports = async (activity) => {
     }
     }
 
+    data.thumbnail = 'https://www.adenin.com/assets/images/wp-images/logo/freshdesk.svg';
+
     // copy response data
     activity.Response.Data = data;
   } catch (error) {
