@@ -21,6 +21,8 @@ module.exports = async (activity) => {
     }
 
     switch (activity.Request.Path) {
+
+    case '/create':
     case 'create':
     case 'submit': {
       data = $.getObjPath(activity.Request, 'Data.model');
