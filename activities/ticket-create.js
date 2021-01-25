@@ -21,7 +21,6 @@ module.exports = async (activity) => {
     }
 
     switch (activity.Request.Path) {
-
     case '/create':
     case '/submit':
     case 'create':

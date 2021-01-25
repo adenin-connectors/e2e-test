@@ -30,6 +30,9 @@ module.exports = async (activity) => {
         },
         template: 'pie-labels',
         palette: 'adenin.PriorityRedOrangeBlue'
+      },
+      _card: {
+        type: 'chart'
       }
     };
   } catch (error) {
